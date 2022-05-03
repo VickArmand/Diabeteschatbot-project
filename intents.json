@@ -1,0 +1,26 @@
+{
+    "intents":[  
+{"tag":"greetings",
+"patterns":[
+    "hello","hey","good day","greetings", "what's up","how is the going"
+],
+"responses":["Hey there I am a diabetes chatbot how about you what's your name"]
+},
+
+{"tag":"goodbye",
+    "patterns":[
+        "See you later","Talk to you later","I'm leaving","Have a good day", "bye","see ya"
+    ],
+    "responses":["Goodbye and thank you for your time"]
+},
+    
+{"tag":"name",
+    "patterns":[
+        "I am Joe"
+    ],
+    "responses":["Hello Joe how can i help you"]
+}
+
+
+]
+}
